@@ -1,0 +1,458 @@
+
+html {
+    scroll-behavior: smooth; 
+       font-family: 'Lato', sans-serif;
+  }
+body,h1,h2,h3,h4,h5,h6,p
+{
+    font-family: 'Lato', sans-serif;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.secnav{
+    background: #3b5abb;
+}
+.bg-darkblue
+{
+    background: #3b5abb;
+}
+
+
+
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.bg-img {
+    background: url(IMG/bg.jpg)no-repeat center center/cover;
+    height: 100%;
+
+    max-height: 600px;
+    padding: 100px 0 300px 0;
+}
+
+.bg-img-card {
+    background: url(IMG/bg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+}
+
+.card-height {
+    height: 200px;
+    background-blend-mode: darken;
+    background: url(IMG/bg.jpg) no-repeat center center/cover;
+    margin: 50px 0;
+}
+
+.card-img-overlay {
+    background-blend-mode: darken;
+}
+
+.bg2 {
+    display: flex;
+    background: url(IMG/bg2.jpg) no-repeat center center/cover;
+    background-blend-mode: darken;
+    height: 300px;
+    backdrop-filter: dark;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 40px 20px;
+}
+
+.flex-clm-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.39);
+
+}
+
+.flex-clm-icon i {
+    font-size: 50px;
+
+}
+
+.border-none {
+    border: 0;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.grid1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+transition: all .3s ease-in;
+justify-content: center;
+    text-align: center;
+    background: url(IMG/newyork.jpg)no-repeat center center/cover;
+
+}
+
+.grid2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+transition: all .3s ease-in;
+ 
+    background: url(IMG/las.jpg)no-repeat center center/cover;  
+
+}
+
+.grid3 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s ease-in;
+
+    justify-content: center;
+    text-align: center;
+    background: url(IMG/san.jpg)no-repeat center center/cover;
+}
+
+.grid4 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+transition: all .3s ease-in;
+    text-align: center;
+    background: url(IMG/miami.jpg)no-repeat center center/cover;
+}
+
+
+
+
+.grid img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.grid1:hover {
+background-blend-mode:darken ;
+background-color: #3b5abb;
+
+}
+.grid2:hover {
+    background-blend-mode:darken ;
+    background-color: #3b5abb;
+
+    
+    }.grid3:hover {
+        background-blend-mode:darken ;
+        background-color: #3b5abb;
+        
+        }.grid4:hover {
+            background-blend-mode:darken ;
+            background-color: #3b5abb;
+            
+            }
+
+.grid-box {
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+.bg-blue-3 {
+    display: flex;
+    background: url(IMG/bg2.jpg) no-repeat center center/cover;
+    background-color: rgba(17, 1, 238, 0.856);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: darken;
+    color: white;
+    margin: 5rem 0;
+    height: 150px;
+}
+
+
+
+
+
+
+.container-width-short {
+
+    width: 90%;
+}
+
+
+#carouselExampleIndicators {
+    width: 80%;
+    height: 600px;
+}
+
+.bg-carosal {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.bg-carosal img {
+
+    height: 100px;
+    width: 100%;
+}
+
+
+.img-small-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+
+
+}
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* .testimonial */
+
+
+
+
+
+
+
+
+.testimonial-section{
+    background-color: #f1f1f1;
+width: 100%;
+height: 100%;
+}
+.testimonial-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 50px 0 0 0;
+ 
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 200px;
+
+}
+
+.testi-white-box{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px 0 20px;
+    width: 100%;
+    height: 100%;
+position: relative;    
+}
+.testi-white-box:before {
+    content: "";
+    position: absolute;
+    bottom: 89px;
+    right: 0;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-top: 15px solid #ffffff;
+    border-right: 15px solid transparent;
+}
+
+.shadow{box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.432);}
+
+
+
+
+
+
+
+
+
+
+
+.flex-profile-box{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+/* justify-content: space-around; */
+text-align: left;
+
+
+}
+
+.col-clm-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.flex-profile{
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    height:50px ;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+.flex-clm-col-footer{
+    color: grey;
+    padding: 10px 20px;
+}
+.nav-link i{
+    margin-left: 5px;
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .bg-carosal img {
+
+width: 100px;    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.firstnav{
+    display: none;
+}
+.bg2 {
+    display: flex;
+    background: url(IMG/bg2.jpg) no-repeat center center/cover;
+    background-blend-mode: darken;
+    height: 100%;
+    backdrop-filter: dark;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 50px 20px;
+}
+#carouselExampleIndicators {
+    width: 80%;
+    height: 100%;
+}
+
+.grid1,.grid3 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(IMG/newyork.jpg)no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin: 20px 10px;
+
+}
+
+  }
+
+
+@media only screen and (max-width: 550px) {
+
+
+
+    .bg-carosal img {
+
+        width: 50px;  
+    height: 50px;
+    }
+
+
+
+}
+  
+
+@media only screen and (max-width: 380px) {
+
+
+
+    .bg-carosal img {
+
+        width: 70px;  
+    height: 70px;
+    }
+
+
+.bg-img {
+    background: url(IMG/bg.jpg)no-repeat center center/cover;
+    height: 100%;
+    max-height: 600px;
+    padding: 5px 0 300px 0;
+}
+
+}  
